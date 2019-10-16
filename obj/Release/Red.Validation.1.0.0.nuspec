@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Red.Validation</id>
+    <version>1.0.0</version>
+    <title>Red.Validation</title>
+    <authors>Malte Rosenbjerg</authors>
+    <owners>Malte Rosenbjerg</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/RedHttp/Red.Validation/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RedHttp/Red.Validation</projectUrl>
+    <iconUrl>https://redhttp.github.io/Red/assets/red-large.png</iconUrl>
+    <description>Extensions for FormValidator, for creating Red middleware</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>2019</copyright>
+    <tags>red rhttp redhttp formvalidator form query validation middleware</tags>
+    <repository type="GitHub" url="https://github.com/RedHttp/Red.Validation" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="FormValidator" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="RHttpServer" version="4.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\maro\Documents\GitHub\Red.Validation\bin\Release\netstandard2.0\Red.Validation.dll" target="lib\netstandard2.0\Red.Validation.dll" />
+  </files>
+</package>

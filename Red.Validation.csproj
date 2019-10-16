@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>Red.Validation</Title>
+        <Authors>Malte Rosenbjerg</Authors>
+        <Description>Extensions for FormValidator, for creating Red middleware</Description>
+        <Copyright>2019</Copyright>
+        <PackageProjectUrl>https://github.com/RedHttp/Red.Validation</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/RedHttp/Red.Validation/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://redhttp.github.io/Red/assets/red-large.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/RedHttp/Red.Validation</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageTags>red rhttp redhttp formvalidator form query validation middleware</PackageTags>
+        <PackageReleaseNotes>First release</PackageReleaseNotes>
+        <LangVersion>8</LangVersion>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FormValidator" Version="2.2.0" />
+      <PackageReference Include="RHttpServer" Version="4.0.2" />
+    </ItemGroup>
+
+</Project>
