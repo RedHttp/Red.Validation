@@ -1,8 +1,0 @@
-C:\Users\maro\Documents\GitHub\Red.Validation\bin\Release\netstandard2.0\Red.Validation.deps.json
-C:\Users\maro\Documents\GitHub\Red.Validation\bin\Release\netstandard2.0\Red.Validation.dll
-C:\Users\maro\Documents\GitHub\Red.Validation\bin\Release\netstandard2.0\Red.Validation.pdb
-C:\Users\maro\Documents\GitHub\Red.Validation\obj\Release\netstandard2.0\Red.Validation.csprojAssemblyReference.cache
-C:\Users\maro\Documents\GitHub\Red.Validation\obj\Release\netstandard2.0\Red.Validation.AssemblyInfoInputs.cache
-C:\Users\maro\Documents\GitHub\Red.Validation\obj\Release\netstandard2.0\Red.Validation.AssemblyInfo.cs
-C:\Users\maro\Documents\GitHub\Red.Validation\obj\Release\netstandard2.0\Red.Validation.dll
-C:\Users\maro\Documents\GitHub\Red.Validation\obj\Release\netstandard2.0\Red.Validation.pdb
