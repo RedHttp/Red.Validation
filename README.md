@@ -10,8 +10,8 @@
 Create middleware function
 ```csharp
 public static readonly Func<Request, Response, Task<HandlerType>> ValidateLoginForm = ValidatorBuilder.New()
-    .RequiresString("username", s => CorrectLength(s, MinUsernameLength, MaxUsernameLength))
-    .RequiresString("password", s => CorrectLength(s, MinPasswordLength, MaxPasswordLength))
+    .RequiresString("username", s => WithLength(s, MinUsernameLength, MaxUsernameLength))
+    .RequiresString("password", s => WithLength(s, MinPasswordLength, MaxPasswordLength))
     .BuildRedFormMiddleware();
 ```
 
