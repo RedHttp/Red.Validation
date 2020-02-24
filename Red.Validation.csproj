@@ -20,7 +20,7 @@
 
     <ItemGroup>
       <PackageReference Include="FormValidator" Version="2.2.0" />
-      <PackageReference Include="RHttpServer" Version="4.0.2" />
+      <PackageReference Include="RHttpServer" Version="5.1.0" />
     </ItemGroup>
 
 </Project>
