@@ -14,5 +14,7 @@ public static readonly Func<Request, Response, Task<HandlerType>> ValidateLoginF
     .RequiresString("password", s => WithLength(s, MinPasswordLength, MaxPasswordLength))
     .BuildRedFormMiddleware();
 ```
-
-`server.Get("/login", ValidateLoginForm, PerformLogin);`
+And then use it
+```csharp
+server.Get("/login", ValidateLoginForm, PerformLogin);
+```
